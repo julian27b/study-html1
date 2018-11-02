@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo{
+    background: #000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.graficlogo{
+    padding: 5px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+#left{
+    background:black;
+    width:200px;
+    float:left;
+}
+#right{
+    background:black;
+    width:200px;
+    float:right;
+}
+#center{
+    background:black;
+    margin:0 200px 0 200px;
+}
+#bottom{
+    position: absolute;
+    bottom: 1;
+    width: 100%
+
+}
+
+.menu{
+    list-style:none;
+    margin:0;
+    padding:10px;
+    text-align: center;
+}
+    
+.menu li a{
+    display:block;
+    padding:10px;
+    background:white;
+}
+.menu li{
+    margin:5px;
+}
+
+.menu2{
+        list-style:none;
+        margin:0;
+        padding:10px;
+}
+    
+.menu2 li a{
+    display:block;
+    padding:10px;
+    background:white;
+    text-align: center;
+        }
+.menu2 li{
+    margin:5px;
+}
+.menu3{
+    list-style:none;
+    margin:0;
+    padding:10px;
+    text-align: center;
+}
+        
+.menu3 li a{
+    display:block;
+    padding:10px;
+    background:white;
+}
+.menu3 li{
+        margin:5px;
+}
+.menu4{
+    list-style:none;
+    margin:0;
+    padding:10px;
+    text-align: center;
+}
+        
+.menu4 li a{
+    display:block;
+    padding:10px;
+    background:black;
+}
+.menu4 li{
+        margin:5px;
+}
